@@ -11,7 +11,7 @@ namespace backend.Controllers
         [HttpGet("")]
         public IActionResult Index()
         {
-            return Ok("Hi");
+            return Ok(User.Identity.Name);
         }
     }
 }
