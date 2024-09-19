@@ -1,2 +1,2 @@
 # basic-iam
-"A starter project using .NET 8 and Angular, with built-in authentication and role-based authorization. This bootstrap project offers a solid foundation for new applications needing secure user access control, making it an ideal starting point for developers.
+A starter project built with .NET 8 and Angular, featuring essential authentication and role-based authorization out of the box. This bootstrap project provides a solid foundation for launching new applications that require secure user authentication and granular access control. Ideal for developers looking to kickstart their projects with modern, scalable solutions.
