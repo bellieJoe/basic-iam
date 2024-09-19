@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace backend.Controllers
 {
@@ -6,7 +7,8 @@ namespace backend.Controllers
     [Route("api/users")]
     public class UserController : Controller
     {
-        [Route("")]
+        [Authorize]
+        [HttpGet("")]
         public IActionResult Index()
         {
             return Ok("Hi");
